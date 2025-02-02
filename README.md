@@ -18,5 +18,8 @@ Tech Stack
 Future Areas of Improvements  
 - Integrate  real-time data  
 - Implement the icon toggles  
-- Add user location detection   
+- Add user location detection
+
+Sources:
+Weather Icon : https://www.flaticon.com/ 
 
