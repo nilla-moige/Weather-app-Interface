@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe, #f8b500);
+    color: white;
+    display: flex;
+    
+}
+.phone-screen{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;  */
+    margin: 0 auto;
+    min-width: 700px;
+}
+
+.location {
+    height: 50px;
+    background-color: rgb(12, 12, 84);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:20px
+}
+.weather{
+    border: rgb(12, 12, 84) solid 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40%;
+    margin-top: 30%;
+    
+}
+.weather-text{
+    display: flex;
+    flex-direction: column;
+}
+.currWeather{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    padding-right: 20px;
+}
+
+.temp{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(12, 12, 84) ; 
+}
+.temp2{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(71, 71, 200) ;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.weather-advisory{
+    background-color: rgb(12, 12, 84);
+    height: 250px;
+}
+.weather-advisory p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    padding-left: 20px;
+}
+.advisory-title{
+    font-size: 21px;
+    padding: 20px 20px 0 20px;
+    display: block;
+}
+.underline{
+    border-top: 2px solid white;
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.bottom-icons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40%;
+    margin-top: 40%;
+
+}
